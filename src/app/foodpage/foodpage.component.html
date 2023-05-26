@@ -1,0 +1,47 @@
+<div class = "con">
+<div class = "container" >
+
+  <img [src] = "food.imageUrl" [alt] = "food.name">
+</div>
+<div class = "details">
+  <div class = "header">
+    <span class = "name">
+      {{food.name}}
+    </span>
+    <span class = "favorite {{food.favorite ?'': 'not'}}">
+      ♥
+    </span>
+  </div>
+  <div class = "star">
+        <ngb-rating [max]="5"  [readonly]="false" class="color2"></ngb-rating>
+  </div>
+  <div class = "origins">
+    <span>
+      {{food.origin}}
+
+    </span>
+
+
+  </div>
+  <div class = "tag">
+      <app-tags [foodpageTags] = "food.tags" justifyContent="start"></app-tags>
+
+  </div>
+  <div class = "cook-time">
+    <span>
+      Time to cook about <strong>{{food.cookTime}}</strong> Minutes
+    </span>
+  </div>
+  <div class = "price">
+    <span>
+      {{food.price| currency}}
+    </span>
+  </div>
+  <button (click)="addToCart()">
+    Add To Cart
+  </button>
+
+
+</div>
+
+</div>

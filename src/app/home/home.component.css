@@ -1,0 +1,90 @@
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+
+}
+ul li a {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: red;
+
+}
+li a:hover{
+  opacity: 0.9;
+  cursor: pointer;
+
+}
+
+.favorite{
+  color: red;
+
+}
+
+.card{
+    margin: 30px;
+}
+
+#gfg{
+    margin: 30px;
+}
+
+.rating{
+  display: flex;
+  gap: 20px;
+}
+i{
+  color: gray;
+}
+.active{
+  color: orange;
+}
+.color2{
+  color: yellow;
+  font-size: 20px;
+
+}
+.name{
+  color: red;
+  font-size: 18px;
+  font-family: bold;
+}
+.name2{
+  color: green;
+}
+.content{
+  padding: 20px;
+
+
+  margin-bottom: 50px;
+}
+.left{
+  padding-right: 20px;
+}
+.kingu{
+  margin-left: 130px;
+}
+.name4{
+  margin-left: 200px;
+  color: red;
+  font-size: 14px;
+}
+.name55{
+  color:red;
+  font-size: 12px;
+  margin-left: 20px;
+  
+
+}
+.green{
+  color:green;
+}

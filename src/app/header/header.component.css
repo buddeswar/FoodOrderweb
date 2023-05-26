@@ -1,0 +1,39 @@
+header{
+  background-color: white;
+  padding: 0;
+  border-bottom: 1px solid red;
+  margin-bottom: 50px;
+}
+a{
+  color: #af1313
+}
+a:hover{
+  background-color: red;
+  color: white
+}
+.container{
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo{
+  padding:0px;
+
+}
+a.logo{
+  font-weight: bold;
+  padding: 1cm;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+}
+nav ul li a{
+  padding: 1cm;
+  display: inline-block;
+}
+.big{
+  color: green;
+  font-size: 30;
+}

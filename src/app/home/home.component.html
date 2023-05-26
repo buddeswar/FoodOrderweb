@@ -1,0 +1,50 @@
+<app-search></app-search>
+<app-tags></app-tags>
+
+<ul>
+  <li *ngFor = "let food of foods">
+    <a routerLink="/food/{{food.id}}">
+      <img src = "{{food.imageUrl}}"  alt = "food image">
+    </a>
+      <div class = "content">
+        <div class = "name">
+          {{food.name}}
+
+        </div>
+        <span class = "favorite{{food.favorite?'': 'not'}}">
+          ❤
+        </span>
+        <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false" class="color2"></ngb-rating>
+
+      </div>
+      <span class = "name55"> {{food.origin  }}</span>
+    <p class="name4">
+     🕒  {{food.cookTime}}
+    </p>
+    <span class = "green">{{food.price|currency}}</span>
+
+
+
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
