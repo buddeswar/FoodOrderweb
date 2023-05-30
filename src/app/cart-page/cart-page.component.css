@@ -142,3 +142,11 @@ ul .remove-button:hover{
   cursor: pointer;
 
 }
+.buddhi{
+  background-color: red;
+  height: 50px;
+  color: white;
+}
+.maintain{
+  color:green
+}

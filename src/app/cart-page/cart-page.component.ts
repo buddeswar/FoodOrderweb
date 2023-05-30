@@ -3,6 +3,7 @@ import { Cart } from '../shared/Cart';
 import { CartService } from '../services/cart.service';
 import { CartItem } from '../shared/CartItem';
 import { FoodService } from '../services/food/food.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart-page',
@@ -12,7 +13,7 @@ import { FoodService } from '../services/food/food.service';
 export class CartPageComponent implements OnInit {
   cart!: Cart;
   constructor(private cartService: CartService,
-    private foodService: FoodService) { //after design this page, i will remove it.
+    private foodService: FoodService, public router: Router) { //after design this page, i will remove it.
 
 
 

@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 
 
+
+
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -15,6 +17,8 @@ import { TagsComponent } from './tags/tags.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { FoodpageComponent } from './foodpage/foodpage.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SuccessComponent } from './success/success.component';
+
 
 
 
@@ -30,7 +34,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     CartPageComponent,
     FoodpageComponent,
     NotFoundComponent,
-    
+    SuccessComponent,
+
 
   ],
   imports: [
@@ -39,6 +44,10 @@ import { NotFoundComponent } from './not-found/not-found.component';
     FormsModule,
     ReactiveFormsModule,
     NgbModule,
+
+
+
+
 
 
 

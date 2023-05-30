@@ -3,6 +3,7 @@ import { FoodService } from '../services/food/food.service';
 import { Foods } from '../shared/food';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { ActivatedRoute } from '@angular/router';
+import { StarRatingComponent } from 'ng-starrating';
 
 @Component({
   selector: 'app-home',
@@ -32,5 +33,6 @@ export class HomeComponent {
   }
 
   starRating = 0;
+  king = "  "
 
 }

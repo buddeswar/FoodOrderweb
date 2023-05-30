@@ -21,6 +21,7 @@
     "@ng-bootstrap/ng-bootstrap": "^14.1.1",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
+    "ng-starrating": "^1.0.20",
     "ngx-bootstrap": "^10.2.0",
     "ngx-rating": "^0.0.9",
     "ngx-star-rating": "^2.1.0",

@@ -12,17 +12,21 @@
           {{food.name}}
 
         </div>
-        <span class = "favorite{{food.favorite?'': 'not'}}">
+
+        <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false" class="color2"></ngb-rating>
+         <span class = " space favorite{{food.favorite?'': 'not'}}" >
           ❤
         </span>
-        <ngb-rating [max]="5" [(rate)]="starRating" [readonly]="false" class="color2"></ngb-rating>
+           <p class="name4"> {{food.origin + "   " }}
+      <span class = "margin-hu">🕒  {{food.cookTime}}</span>
+
+    </p>
+
+    
+    <span class = "green">{{food.price|currency}}</span>
 
       </div>
-      <span class = "name55"> {{food.origin  }}</span>
-    <p class="name4">
-     🕒  {{food.cookTime}}
-    </p>
-    <span class = "green">{{food.price|currency}}</span>
+
   </li>
 </ul>
 

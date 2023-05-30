@@ -74,17 +74,27 @@ i{
   margin-left: 130px;
 }
 .name4{
-  margin-left: 200px;
+  margin-left: px;
   color: red;
   font-size: 14px;
+  margin-top: 10px
 }
 .name55{
   color:red;
   font-size: 12px;
   margin-left: 20px;
-  
+
 
 }
 .green{
   color:green;
+}
+.space{
+  margin-left: 150px;
+  color: green;
+  font-size: 30px;
+
+}
+.margin-hu{
+  margin-left:40px
 }
